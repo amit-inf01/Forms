@@ -1,0 +1,59 @@
+
+
+#a{
+    background-color:rgba(101, 253, 139, 0.815);
+    padding: .5cm;
+    /* margin: .5cm; */
+    color: darkgreen;
+    text-shadow: 3px 3px 1px white;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    background-color:green;
+    text-align: center;
+    font-weight: 500;
+    text-shadow: 2px 2px 3px white;
+    font-size: 300%;
+    padding: .5cm;
+    margin:0%;
+}
+
+input[type=text],input[type=number],
+input[type=email],
+input[type=date],
+input[type=password],
+select,
+textarea
+{
+    padding: .4cm;
+    /* text-align: center; */
+    width: 98%;
+    border: 1px solid rgb(76, 187, 85);
+    border-radius: 5px;
+    margin: .2cm;
+}
+input[type=submit],input[type=reset]{
+   padding: .3cm;
+   width: 25%;
+   background-color: green;
+   color: white;
+   font-size: 100%;
+   font-weight: 500;
+   text-shadow: 2px 1px 1.5px white;
+cursor: pointer;
+border: none;
+}
+input[type=submit],input[type=reset]:hover{
+    background-color: green;
+    color: lightgreen;
+    border: none;
+}
+fieldset{
+    background-color:white;
+    width: 98.3%;
+    border: 1px solid rgb(67, 173, 75);
+    border-radius: 5px;
+    padding: .4cm;
+}
+

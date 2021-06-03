@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAYMONT FORM</title>
+    <link rel="stylesheet" href="FOrm_style.css">
+</head>
+<body>
+    
+    <form action="">
+    <h1>PAYMENT FORM</h1>
+   
+    <div id="a">
+         <hr> 
+    <h2>CONTACT DETAILS</h2>
+    <p>NAME*: <input type="text" name="name" required placeholder="Amit Maurya"> </p>
+    <p>
+        
+        <fieldset>
+            <legend>GENDER</legend>
+        MALE <input type="radio" name="gender" id="male" required>  FEMALE <input type="radio" name="gender" id="female" required>
+    </fieldset> 
+    </p>
+    <p>ADDRESS: <textarea name="address" id="address" cols="97" rows="5"></textarea></p>
+    <p>EMAIL*: <input type="email" name="email" id="email"required></p>
+    <p>PINCODE: <input type="number" name="pincode" id="pincode"></p>
+    <hr>
+    <h2>PAYMENT INFO</h2>
+    <p>CARD TYPE*: <select name="card_type" id="card_type" required>
+                <option value="">--select a card type--</option>
+                <option value="visa">visa</option>
+                <option value="rupee">rupee</option>
+                <option value="mater card">master card</option>
+            </select>
+    </p>
+    <p>CARD NUMBER*: <input type="number" name="card_number" id="card_number" required></p>
+    <p>EXPIRATION DATE*: <input type="date" name="input_date" id="input_date"required></p>
+    <p>CVV*: <input type="password" name="cvv" id="cvv" required></p>
+    <input type="submit" value="PAY NOW">
+    <input type="reset" value="RESET">
+</form>
+</div>
+</body>
+</html>
